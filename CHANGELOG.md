@@ -9,3 +9,5 @@
 2023-06-30: Uploaded Homework4Q1.cs, Homework4Q2.cs, and Homework4Q3.cs files.
 
 2023-07-15: Uploaded Homework5.cs file.
+
+2023-07-20: Uploaded Homework6.cs file.
