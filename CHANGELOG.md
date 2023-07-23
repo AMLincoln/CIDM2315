@@ -11,3 +11,5 @@
 2023-07-15: Uploaded Homework5.cs file.
 
 2023-07-20: Uploaded Homework6.cs file.
+
+2023-07-23: Uploaded MidtermBonus.cs file.
