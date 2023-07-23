@@ -13,17 +13,17 @@ using System.Collections.Generic;
 class Student
 {
     public static List <Student> studentList = new List <Student>();
-    public int studentID {set; get;}
-    public string studentName {set; get;}
+    public int StudentID {set; get;}
+    public string StudentName {set; get;}
     public Student (int stu_ID, string stu_name)
     {
-        studentID = stu_ID;
-        studentName = stu_name;
+        StudentID = stu_ID;
+        StudentName = stu_name;
         studentList.Add(this);
     }
     public void PrintInfo()
     {
-        Console.WriteLine($"Student ID: {studentID}, Student Name: {studentName}");
+        Console.WriteLine($"Student ID: {StudentID}, Student Name: {StudentName}");
     }
 }
 class Program
@@ -67,7 +67,7 @@ class Program
             {
                 foreach (Student stu in Student.studentList)
                 {
-                    if (stu.studentName == gpa.Key)
+                    if (stu.StudentName == gpa.Key)
                     {
                         stu.PrintInfo();
                     }
