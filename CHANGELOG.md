@@ -15,3 +15,5 @@
 2023-07-23: Uploaded MidtermBonus.cs file.
 
 2023-07-23: Changed all instances of points to Points in Midterm.cs file to reflect property nomenclature.
+
+2023-07-23: Chagned all instances of studentID and studentName to StudentID and StudentName, respectively, in Homework6.cs to reflect property nomenclature.
