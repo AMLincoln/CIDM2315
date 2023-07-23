@@ -13,3 +13,5 @@
 2023-07-20: Uploaded Homework6.cs file.
 
 2023-07-23: Uploaded MidtermBonus.cs file.
+
+2023-07-23: Changed all instances of points to Points in Midterm.cs file to reflect property nomenclature.
