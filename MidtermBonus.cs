@@ -15,25 +15,25 @@ namespace MidtermBonus;
 using System;
 class HumanPlayer
 {
-    public int points {get; set;}
+    public int Points {get; set;}
     public HumanPlayer (int initial)
     {
-        points = initial;
+        Points = initial;
     }
     
     public int GetPoints()
     {
-        return points;
+        return Points;
     }
 
     public void WinRound()
     {
-        points += 5;
+        Points += 5;
     }
 
     public void LoseRound()
     {
-        points-=5;
+        Points-=5;
     }
 
     public string HumanDecision()
@@ -104,7 +104,7 @@ class RockPaperScissors
         HumanPlayer hp1 = new HumanPlayer (5);
         ComputerPlayer cp1 = new ComputerPlayer();
 
-        while (hp1.points > 0)
+        while (hp1.Points > 0)
         {
             Console.WriteLine("****Rock Paper Scissors, Start!!****");
             int player_points = hp1.GetPoints();
@@ -178,7 +178,7 @@ class RockPaperScissors
             do
             {
                 // If player points are at zero, will not ask user if they wish to continue, and instead display 'Not enough points' message.
-                if (hp1.points == 0)
+                if (hp1.Points == 0)
                 {
                     break;
                 }
